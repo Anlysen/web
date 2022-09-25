@@ -63,11 +63,6 @@ main .main__welcom h1{
 span{
     color: #fcac45;
 }
-.image__mac{
-    width: 450px;
-    height: 450px;
-    
-}
 .wrapper{
     width: 76%;
     margin: 0 auto;
@@ -91,8 +86,13 @@ main .main__about{
 .about__right li{
     background: url(./img/free-icon-dot-8233958.png) 0px no-repeat;
     padding-left: 20px;
+    margin-top: 10px;
+    color: #6c6c6c;
 }
-
+.image__mac{
+    width: 350px;
+    height: 350px;
+}
 
 
 
@@ -143,4 +143,112 @@ main .main__about{
         display: block;
         text-align: left;
     }
+    main .main__welcom{
+        padding: 50px 0 50px 0;
+    }
+    main .main__welcom p{
+        font-size: 14px;
+    }
+    main .main__welcom h1{
+        font-size: 25px;
+    }
+    .main__about{
+        flex-direction: column;
+    }
+    .about__right{
+        text-align: center;
+        margin-left: 0;
+    }
+    .about__right li{
+        text-align: left;
+    }
+    
+    .about__right h1{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .team__cards{
+        flex-direction: column;
+    }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.main__team {
+    background: #000;
+    text-align: center;
+    padding: 100px 0 100px 0;
+    color: #fff;
+}
+.main__team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.line {
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;
+    left: 45%;
+    margin-bottom: 85px;
+
+}
+.team__cards {
+    display: flex;
+}
+.card {
+    margin: 0 40px;
+}
+.photo {
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.name {
+    font-size: 20px;
+    margin-bottom: 7px;
+    color: #d7d7d7;
+}
+.position {
+    font-size: 18px;
+    margin-bottom: 35px;
+    font-family: 'Source Sans Pro wght@200';
+    color: #d7d7d7;
+}
+.about__position {
+    font-size: 17px;
+    font-family: 'Open Sans wght@300';
+    color: #d7d7d7;
+}
+.image{
+    width: 80px;
+    height: 80px;
+}
+.main__services h1{
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.main__services p{
+    color: #6c6c6c;
+    margin-bottom: 100px;
+}
+.wrapper {
+}
+.line {
+}
+.services__cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.services__card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
